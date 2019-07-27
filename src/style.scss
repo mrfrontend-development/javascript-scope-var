@@ -1,0 +1,25 @@
+$green: #0dca8e;
+$borderWidth: 8px;
+
+body {
+	padding: 1em 2em;
+	line-height: 1.8;
+	font-size: 1.5rem;
+	border: $borderWidth solid $green;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	box-sizing: border-box;
+	height: 100vh;
+}
+.container {
+	flex-direction: row;
+}
+.scope {
+	padding: 1em 2em;
+	height: 100%;
+	border: $borderWidth solid $green;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
